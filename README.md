@@ -355,25 +355,12 @@ async def fetch_all(urls):
 
 ---
 
-## Why This Project
-
-This demonstrates skills that AI engineering roles specifically look for:
-
-- **Agentic AI** — three agents with separated concerns, typed handoffs between them, and isolated failure modes
-- **Tool Calling / Structured Outputs** — forces typed JSON from an LLM using the proper API, not prompt engineering workarounds
-- **Pydantic Schema Design** — schema defined once, used as the contract for extraction, validation, and persistence
-- **Graceful error handling** — per-URL, per-stage failures with structured logging; one bad URL never blocks the rest
-- **Cost-aware model selection** — 8B model for cheap tasks, 70B for reasoning; shows engineering judgment not just syntax
-
----
-
 ## License
 
-MIT — use freely, attribution appreciated.
+MIT
 
 ---
 
 ## Author
 
-Built as a portfolio project for AI/ML engineering roles.  
 Pull requests welcome.
